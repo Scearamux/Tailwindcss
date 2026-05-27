@@ -1,0 +1,26 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scearamux/Tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Scearamux/Tailwindcss/issues"
+  },
+  "homepage": "https://github.com/Scearamux/Tailwindcss#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
