@@ -2,10 +2,9 @@
   "name": "tailwindcss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/style.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/style.css --minify"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,13 @@
   },
   "homepage": "https://github.com/Scearamux/Tailwindcss#readme",
   "dependencies": {
-    "@tailwindcss/cli": "^4.3.0",
-    "tailwindcss": "^4.3.0"
+    "autoprefixer": "^10.5.0",
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^8.0.0",
+    "cssnano": "^8.0.1",
+    "parcel": "^2.12.0",
+    "postcss": "^8.5.15"
   }
 }
